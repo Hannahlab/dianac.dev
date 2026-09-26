@@ -127,7 +127,8 @@ span{
     border-radius: 50%;
 }
 
-.home-img   img  {
+.home-img img,
+.home-img video {
 position: relative;
 width: 30vh;
 border-radius:50% ;
@@ -136,7 +137,8 @@ cursor: pointer;
 transition: 0.2s linear;
 }
 
-.home-img img:hover{
+.home-img img:hover,
+.home-img video:hover{
     font-size: 1.8rem;
     font-weight: 500;
 }
@@ -198,7 +200,8 @@ transition: 0.2s linear;
     .home-content h1{
         font-size: 2.5rem;
     }
-    .home-img img{
+    .home-img img,
+    .home-img video{
         width: 70vw;
        margin-top: 4rem;
     }
